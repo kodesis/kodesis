@@ -1,0 +1,3 @@
+RewriteEngine On 
+RewriteCond %{REQUEST_URI} !\.(css|js|jpg|png|gif|svg|webp)$ [NC]
+RewriteRule ^assets/ - [F,L]
