@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Home - Kode Sistem Indonesia</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- Favicons -->
+    <link href="assets/img/icon-kodesis.png" rel="icon" />
+    <link href="assets/img/icon-kodesis.png" rel="apple-touch-icon" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+
+    <style>
+      .bg-testimonial {
+        background: color-mix(in srgb, var(--default-color), transparent 97%);
+      }
+
+      .clients .swiper {
+        padding: 20px 0;
+      }
+
+      .clients .swiper-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .clients .swiper-slide img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      .font-10 {
+        font-size: 10px;
+      }
+
+      @media (max-width: 991px) {
+        .img-fluid2 {
+          max-width: 100%;
+          height: auto;
+        }
+      }
+
+      .nav-link {
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 500;
+        color: #0d6efd;
+        padding: 8px 12px;
+        border-radius: 4px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+
+      .nav-link:hover {
+        background-color: #0d6efd;
+        color: white;
+      }
+    </style>
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- =======================================================
+  * Template Name: Scaffold
+  * Template URL: https://bootstrapmade.com/scaffold-bootstrap-metro-style-template/
+  * Updated: Aug 02 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  </head>
+
+  <body class="index-page">
+    <header id="header" class="header d-flex align-items-center sticky-top">
+      <div class="container position-relative d-flex align-items-center">
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <img src="assets/img/logo-kodesis.png" alt="Logo KodeSis" />
+          <h1 class="sitename">KodeSis</h1>
+        </a>
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="#about">Tentang Kami</a></li>
+            <li><a href="produk.html" class="active">Produk</a></li>
+            <li><a href="#clients">Mitra</a></li>
+            <li><a href="#contact">Kontak</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+        <div class="header-social-links">
+          <a href="https://wa.me/6289625551238" target="_blank">
+            <i class="bi bi-whatsapp"></i>
+          </a>
+          <a href="https://www.tiktok.com/@kodesis.id" target="_blank">
+            <i class="bi bi-tiktok"></i>
+          </a>
+          <a href="https://www.instagram.com/kodesis.id/" target="_blank">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/company/kode-sistem-indonesia/"
+            target="_blank"
+          >
+            <i class="bi bi-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- Hero Section -->
+      <section id="hero" class="hero section">
+        <div class="container">
+          <div class="row gy-4">
+            <!-- <div
+              class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center"
+            >
+
+                <a href="#about" class="btn-get-started mb-2">KodeSis E-Memo</a>
+                <a href="#about" class="btn-get-started mb-2">KodeSis Tello/Task</a>
+                <a href="#about" class="btn-get-started mb-2">KodeSis Cuti Digital</a>
+                <a href="#about" class="btn-get-started mb-2">KodeSis Asset</a>
+                <a href="#about" class="btn-get-started mb-2">KodeSis Journal</a>
+                <a href="#about" class="btn-get-started mb-2">KodeSis Absensi</a>
+                <a href="#about" class="btn-get-started mb-2">>KodeSis Lettering</a>
+                <a href="#about" class="btn-get-started">KodeSis Enterprise</a>
+            </div> -->
+            <div
+              class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center"
+            >
+              <h1 class="mt-5">Jelajahi Produk Unggulan Kami</h1>
+              <p>
+                Berbagai solusi digital yang dirancang untuk membantu perusahaan
+                Anda lebih efisien dan terintegrasi.
+              </p>
+
+              <div class="d-flex">
+                <a href="#produk-selection" class="btn-get-started"
+                  >Cari tahu bersama kami ...</a
+                >
+              </div>
+            </div>
+            <div class="col-lg-5 order-1 order-lg-2 hero-img">
+              <img
+                src="assets/img/3_20250220_212044_0000.png"
+                class="img-fluid2"
+                alt="Hero Image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Hero Section -->
+      <section id="produk-selection" class="py-4 bg-light">
+        <div class="container">
+          <div class="d-flex flex-wrap justify-content-center gap-3">
+            <a href="#e-memo" class="nav-link show-section">KodeSis E-Memo</a>
+            <a href="#tello-task" class="nav-link show-section"
+              >KodeSis Tello/Task</a
+            >
+            <a href="#cuti-digital" class="nav-link show-section"
+              >KodeSis Cuti Digital</a
+            >
+            <a href="#asset" class="nav-link show-section">KodeSis Asset</a>
+            <a href="#journal" class="nav-link show-section">KodeSis Journal</a>
+            <a href="#absensi" class="nav-link show-section">KodeSis Absensi</a>
+            <a href="#lettering" class="nav-link show-section"
+              >KodeSis Lettering</a
+            >
+            <a href="#enterprise" class="nav-link show-section"
+              >KodeSis Enterprise</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Product Section -->
+      <!-- <section id="product" class="services section">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Produk Kami</h2>
+    <p>
+      Kami menyediakan berbagai solusi IT yang dirancang untuk mendukung
+      keberhasilan bisnis Anda.
+    </p>
+  </div>
+  <div class="container">
+    <div class="row gy-4">
+      
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <img src="assets/img/e-memo.png" alt="KodeSis e-HR" class="img-fluid" />
+          </div>
+          <h4><a href="" class="stretched-link">KodeSis E-Memo</a></h4>
+          <p>
+            Solusi digital untuk pengelolaan surat menyurat yang cepat, aman, dan efisien.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <img src="assets/img/e-hr.jpg" alt="KodeSis e-HR" class="img-fluid" />
+          </div>
+          <h4><a href="" class="stretched-link">KodeSis Tello/Task</a></h4>
+          <p>
+            Platform manajemen tugas untuk kolaborasi tim yang lebih terarah, terjadwal, dan produktif.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <img src="assets/img/cuti-online.png" alt="KodeSis e-HR" class="img-fluid" />
+          </div>
+          <h4><a href="" class="stretched-link">KodeSis Cuti Digital</a></h4>
+          <p>
+            Ajukan cuti dengan mudah, cepat, dan transparan langsung dari perangkat Anda.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <img src="assets/img/e-asset.jpg" alt="KodeSis Asset" class="img-fluid" />
+          </div>
+          <h4><a href="" class="stretched-link">KodeSis Asset</a></h4>
+          <p>Manajemen aset perusahaan yang mudah dan terintegrasi.</p>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <img src="assets/img/e-journal.jpg" alt="KodeSis Journal" class="img-fluid" />
+          </div>
+          <h4><a href="" class="stretched-link">KodeSis Journal</a></h4>
+          <p>
+            Sistem akuntansi yang memudahkan pencatatan dan pelaporan
+            keuangan.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <img src="assets/img/absensi-online1.jpg" alt="KodeSis Journal" class="img-fluid" />
+          </div>
+          <h4><a href="" class="stretched-link">KodeSis Absensi</a></h4>
+          <p>
+            Sistem absensi digital tanpa mesin fingerprint, cukup lewat perangkat Anda secara real-time, akurat, dan
+            fleksibel dari
+            mana saja.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <img src="assets/img/lettering.jpg" alt="KodeSis Journal" class="img-fluid" />
+          </div>
+          <h4><a href="" class="stretched-link">KodeSis Lettering</a></h4>
+          <p>
+            Kelola surat masuk dan keluar secara digital, cepat, aman, dan tanpa tumpukan kertas.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <img src="assets/img/erp.jpg" alt="KodeSis Enterprise" class="img-fluid" />
+          </div>
+          <h4>
+            <a href="" class="stretched-link">KodeSis Enterprise</a>
+          </h4>
+          <p>Kustom sistem terintegrasi.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+      <!-- /Product Section -->
+
+      <!-- About Section (KodeSis E-Memo) -->
+      <section id="e-memo" class="about section">
+        <div class="container" data-aos="fade-up">
+          <div class="row gx-0">
+            <div
+              class="col-lg-6 d-flex align-items-center justify-content-center"
+              data-aos="zoom-out"
+              data-aos-delay="200"
+            >
+              <img
+                src="assets/img/e-memo.png"
+                class="img-fluid w-100"
+                alt="Kodesis Logo"
+                style="height: 371px"
+              />
+            </div>
+            <div
+              class="col-lg-6 d-flex flex-column justify-content-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="content">
+                <h3>KodeSis E-Memo</h3>
+                <h2>Apa Itu E-Memo ?</h2>
+                <p>
+                  <strong>E-Memo</strong> merupakan sebuah sistem pengelolaan
+                  administrasi persuratan dilingkungan perusahaah. Dengan adanya
+                  sistem E-memo perusahaan dapat melaksanakan kegiatan
+                  administrasinya dengan lebih mudah, cepat, produktif, akurat,
+                  aman dan efisien.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container" data-aos="fade-up">
+          <div class="row gx-0">
+            <div
+              class="col-lg-6 d-flex flex-column justify-content-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="content">
+                <h2>What are the Problems?</h2>
+                <ul>
+                  <li class="mb-2">
+                    <strong>Penumukkan dan Penggunaan Kertas Berlebih:</strong>
+                    Surat menyurat secara manual menyebabkan penumpukan kertas
+                    dan kesulitan arsip.
+                  </li>
+                  <li class="mb-2">
+                    <strong>Disposisi Surat yang Memakan Waktu:</strong>
+                    Tanpa sistem, atasan harus hadir langsung untuk disposisi,
+                    sehingga proses jadi lambat.
+                  </li>
+                  <li class="mb-2">
+                    <strong>Penomoran Surat Secara Manual:</strong>
+                    Nomor surat dicek satu per satu secara manual, rawan
+                    duplikasi dan tidak efisien.
+                  </li>
+                  <li class="mb-2">
+                    <strong>Kesulitan Mencari Surat:</strong>
+                    Tanpa sistem, pencarian dokumen harus dilakukan secara
+                    manual di ruang arsip.
+                  </li>
+                  <li class="mb-2">
+                    <strong>Berkas Surat Mudah Hilang:</strong>
+                    Dokumen mudah tercampur atau hilang tanpa sistem penyimpanan
+                    digital yang baik.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="col-lg-6 d-flex align-items-center justify-content-center"
+              data-aos="zoom-out"
+              data-aos-delay="200"
+            >
+              <img
+                src="assets/img/e-memo2.jpg"
+                class="img-fluid w-100"
+                alt="Kodesis Logo"
+                style="height: 396px"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- KodeSis Tello/Task Section -->
+      <section id="tello-task" class="about section">
+        <div class="container" data-aos="fade-up">
+          <div class="row gx-0">
+            <div
+              class="col-lg-6 d-flex align-items-center justify-content-center"
+              data-aos="zoom-out"
+              data-aos-delay="200"
+            >
+              <img
+                src="assets/img/e-hr.jpg"
+                class="img-fluid w-100"
+                alt="KodeSis Tello/Task"
+              />
+            </div>
+            <div
+              class="col-lg-6 d-flex flex-column justify-content-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="content">
+                <h3>Tello/Task</h3>
+                <h2>Apa itu Tello</h2>
+                <p>
+                  Tello adalah sebuah sistem project atau task management yang
+                  fungsinya untuk mengelola dan mengerjakan tugas secara lebih
+                  efisien. Sistem ini akan memfasilitasi anggota tim untuk
+                  melakukan kolaborasi kerja secara efisien. Dengan sistem ini,
+                  dapat menyelaraskan tujuan dan memastikan komunikasi yang
+                  jelas.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container" data-aos="fade-up">
+          <div class="row gx-0">
+            <div
+              class="col-lg-6 d-flex flex-column justify-content-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="content">
+                <h2>Kemudahan Tello</h2>
+                <ul>
+                  <li class="mb-2">
+                    Membagi proyek menjadi tugas-tugas kecil yang mudah dicapai.
+                  </li>
+                  <li class="mb-2">
+                    Mengatur dan mengingatkan tenggat waktu setiap tugas kepada
+                    seluruh anggota tim.
+                  </li>
+                  <li class="mb-2">
+                    Mempermudah delegasi tugas kepada masing-masing anggota tim.
+                  </li>
+                  <li class="mb-2">
+                    Mengetahui tanggung jawab dan tugas dari setiap anggota tim
+                    secara jelas.
+                  </li>
+                </ul>
+
+                <h2 class="mt-4">Fungsi Tello</h2>
+                <ul>
+                  <li class="mb-2">
+                    Meningkatkan kolaborasi dan komunikasi antar anggota tim.
+                  </li>
+                  <li class="mb-2">
+                    Membantu dalam penjadwalan dan pengelolaan waktu proyek.
+                  </li>
+                  <li class="mb-2">
+                    Mengorganisir dan memprioritaskan tugas atau pekerjaan
+                    secara efisien.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="col-lg-6 d-flex align-items-center justify-content-center"
+              data-aos="zoom-out"
+              data-aos-delay="200"
+            >
+              <img
+                src="assets/img/tello.jpg"
+                class="img-fluid w-100"
+                alt="Kodesis Logo"
+                style="height: 396px"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- KodeSis Cuti Digital Section -->
+      <section id="cuti-digital" class="about section">
+        <div class="container" data-aos="fade-up">
+          <div class="row gx-0">
+            <div
+              class="col-lg-6 d-flex align-items-center justify-content-center"
+              data-aos="zoom-out"
+              data-aos-delay="200"
+            >
+              <img
+                src="assets/img/cuti-online.png"
+                class="img-fluid w-100"
+                alt="KodeSis Cuti Digital"
+              />
+            </div>
+            <div
+              class="col-lg-6 d-flex flex-column justify-content-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="content">
+                <h3>Cuti Digital</h3>
+                <h2>Apa itu Cuti Digital ?</h2>
+                <p>
+                  Cuti merupakan proses pengajuan ijin libur pada harihari besar
+                  sesuai waktu yang ditentukan, dan waktu tersebut tidak boleh
+                  melebihi batas cuti, dan harus mendapat persetujuan dari
+                  supervisor dan human capital.
+                </p>
+                <p>
+                  Proses pengajuan cuti sering dilakukan secara manual dan
+                  memakan waktu yang tidak singkat. Dengan adanya sistem cuti
+                  digital diharapkan dapat mempercepat proses pengajuan cuti
+                  secara online.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container" data-aos="fade-up">
+          <div class="row gx-0">
+            <div
+              class="col-lg-6 d-flex flex-column justify-content-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="content">
+                <h2>Manfaat</h2>
+                <p>
+                  Melalui sistem cuti online ini, seseorang dapat memperoleh
+                  kebebasan untuk mengajukan cuti dimana saja dan kapan saja.
+                  Melalui sistem cuti digital ini karyawan dapat melihat atau
+                  memonitor status persetujuan cutinya diterima atau ditolak
+                  dengan proses yang lebih cepat.
+                </p>
+                <p>
+                  Sistem cuti digital ini aplikasi berbasis web-base yang
+                  bersifat online. Setiap proses pengajuan akan ada notifikasi
+                  baik itu kepada supervisor, human capital ataupun ke karyawan
+                  yang mengajukan cuti
+                </p>
+              </div>
+            </div>
+            <div
+              class="col-lg-6 d-flex align-items-center justify-content-center"
+              data-aos="zoom-out"
+              data-aos-delay="200"
+            >
+              <img
+                src="assets/img/cuti-online1.png"
+                class="img-fluid w-100"
+                alt="Kodesis Logo"
+                style="height: 396px"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- KodeSis Asset Section -->
+      <section id="asset" class="about section">
+        <div class="container" data-aos="fade-up">
+          <div class="row gx-0">
+            <div
+              class="col-lg-6 d-flex align-items-center justify-content-center"
+              data-aos="zoom-out"
+              data-aos-delay="200"
+            >
+              <img
+                src="assets/img/e-asset.jpg"
+                class="img-fluid w-100"
+                alt="KodeSis Asset"
+              />
+            </div>
+            <div
+              class="col-lg-6 d-flex flex-column justify-content-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="content">
+                <h3>Asset Management</h3>
+                <h2>PERMASALAHAN UMUM</h2>
+                <ul>
+                  <li class="mb-2">
+                    Sulitnya tracking pendataan asset yang banyak seiring
+                    kebutuhan perusahaan yang meningkat.
+                  </li>
+                  <li class="mb-2">
+                    Kesulitan dalam melakukan proses audit yang akuntabel.
+                  </li>
+                  <li class="mb-2">
+                    Sulitnya pengontrolan asset akibat tidak terinvetarisir
+                    dengan baik.
+                  </li>
+                </ul>
+                <p>
+                  Sistem yang dirancang untuk mempermudah pengelolaan asset
+                  perusahaan lokasi barang, riwayat perpindahan, kondisi barang
+                  dan nilai asset.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- KodeSis Journal Section -->
+      <section id="journal" class="about section">
+        <div class="container" data-aos="fade-up">
+          <div class="row gx-0">
+            <div
+              class="col-lg-6 d-flex align-items-center justify-content-center"
+              data-aos="zoom-out"
+              data-aos-delay="200"
+            >
+              <img
+                src="assets/img/e-journal.jpg"
+                class="img-fluid w-100"
+                alt="KodeSis Journal"
+              />
+            </div>
+            <div
+              class="col-lg-6 d-flex flex-column justify-content-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="content">
+                <h3>Journal</h3>
+                <h2>MASALAH UMUM</h2>
+                <p>
+                  Pembukuan akuntansi masih menggunakan secara manual sehingga
+                  data keuntungan dan kerugian belum bisa terupdate secara
+                  jelas.
+                </p>
+                <h2 class="mt-4">Keamanan Data</h2>
+                <ul>
+                  <li class="mb-2">
+                    <strong>Akses yang Tidak Terbatas : </strong>Data Keuangan
+                    dalam format fisik bisa di akses siapa saja tanpa kontrol
+                    yang memadai, meningkatkan risiko kebocoran informasi.
+                  </li>
+                  <li class="mb-2">
+                    <strong>Kurangnya Backup : </strong>Data manual sulit untuk
+                    di duplikasi atau di-backup secara efektif.
+                  </li>
+                </ul>
+                <h2 class="mt-4">Human Error</h2>
+                <ul>
+                  <li class="mb-2">
+                    <strong>Kesalahan Penulisan dan Perhitungan : </strong
+                    >Kesalahan dalam memasukan data atau melakukan perhitungan
+                    dapat terjadi dengan mudah, mengakibatkan ketidakakuratan
+                    dalam laporan keuangan.
+                  </li>
+                  <li class="mb-2">
+                    <strong>Kesalahan Penyalinan : </strong>Kesalahan saat
+                    menyalin data dari satu dokumen ke dokumen lain atau dari
+                    satu buku ke buku lain.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container" data-aos="fade-up">
+          <div class="row gx-0">
+            <div
+              class="col-lg-6 d-flex flex-column justify-content-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="content">
+                <h2>Waktu dan Efisiensi</h2>
+                <ul>
+                  <li class="mb-2">
+                    <strong>Proses yang Memakan Waktu : </strong>Dmemasukan data
+                    secara manual dan melakukan rekonsilasi transaksi memerlukan
+                    banyak waktu.
+                  </li>
+                  <li class="mb-2">
+                    <strong>Pekerjaan Berulang : </strong>Banyak tugas akuntansi
+                    manual yang berulang-ulang, yang dapat mengurangi efisiensi
+                    kerja.
+                  </li>
+                </ul>
+                <h2 class="mt-4">Visibilitas dan Transparansi</h2>
+                <ul>
+                  <li class="mb-2">
+                    <strong>Kurangnya Real-time Information : </strong>
+                    Informasi keuangan tidak dapat diakses secara real-time,
+                    yang mengurangi kemampuan untuk mengambil keputusan cepat
+                    berdasarkan data terbaru.
+                  </li>
+                  <li class="mb-2">
+                    <strong>Transparansi yang Terbatas : </strong>Sulit untuk
+                    melacak dan memverifikasi transaksi dengan cepat dalam
+                    sistem manual.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="col-lg-6 d-flex align-items-center justify-content-center"
+              data-aos="zoom-out"
+              data-aos-delay="200"
+            >
+              <img
+                src="assets/img/e-journal1.jpg"
+                class="img-fluid w-100"
+                alt="Kodesis Logo"
+                style="height: 396px"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="container" data-aos="fade-up">
+          <div class="row gx-0">
+            <div
+              class="col-lg-6 d-flex align-items-center justify-content-center"
+              data-aos="zoom-out"
+              data-aos-delay="200"
+            >
+              <img
+                src="assets/img/e-journal3.jpg"
+                class="img-fluid w-100"
+                alt="KodeSis Journal"
+              />
+            </div>
+            <div
+              class="col-lg-6 d-flex flex-column justify-content-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="content">
+                <h2>MANFAAT JURNAL</h2>
+                <ul>
+                  <li class="mb-2">
+                    Jurnal akan memberikan kemudahan dalam pembuatan laporan
+                    keuangan bisnis secara instan mulai dari neraca bisnis,
+                    laba-rugi, perubahan modal, arus kas, dan masih banyak
+                    lainnya.
+                  </li>
+                  <li class="mb-2">
+                    Jurnal dapat digunakan untuk memonitor bisnis melalui
+                    laporan keuangan yang lengkap.
+                  </li>
+                  <li class="mb-2">
+                    Dengan menggunakan Jurnal, faktur dapat dibuat, dikirim, dan
+                    dikelola dengan lebih profesional.
+                  </li>
+                  <li class="mb-2">
+                    Proses penawaran harga hingga penagihan bisnis
+                  </li>
+                  <li class="mb-2">
+                    Jurnal memiliki fitur pengingat faktur, sehingga piutang
+                    tidak tertagih dapat dihindari.
+                  </li>
+                  <li class="mb-2">
+                    Dengan adanya fitur stok barang, daftar produk dan jumlah
+                    stok barang bisnis Anda akan lebih akurat.
+                  </li>
+                  <li class="mb-2">Penghematan Biaya</li>
+                  <li class="mb-2">
+                    <strong>Biaya Distribusi</strong> Tidak ada biaya cetak dan
+                    distribusi fisik, sehingga menghemat biaya.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- KodeSis Absensi Section -->
+      <section id="absensi" class="about section">
+        <div class="container" data-aos="fade-up">
+          <div class="row gx-0">
+            <div
+              class="col-lg-6 d-flex align-items-center justify-content-center"
+              data-aos="zoom-out"
+              data-aos-delay="200"
+            >
+              <img
+                src="assets/img/absensi-online1.jpg"
+                class="img-fluid w-100"
+                alt="KodeSis Absensi"
+              />
+            </div>
+            <div
+              class="col-lg-6 d-flex flex-column justify-content-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="content">
+                <h3>Absensi Digital</h3>
+                <h2>Apa itu Absensi Digital ?</h2>
+                <p>
+                  <strong> Absensi Digital </strong>adalah sistem pencatatan
+                  kehadiran karyawan secara elektronik menggunakan perangkat
+                  digital seperti komputer, smartphone, atau tablet. Sistem ini
+                  menggantikan metode absensi manual seperti tanda tangan di
+                  kertas atau mesin ceklok (fingerprint/manual clocking), dan
+                  biasanya terhubung dengan jaringan internet agar data
+                  tersimpan secara real-time di server.
+                </p>
+                <h2 class="mt-4">Fitur Umum Absensi Digital</h2>
+                <ul>
+                  <li>
+                    Check-in & Check-out online (berbasis lokasi/GPS atau
+                    jaringan)
+                  </li>
+                  <li>Rekaman waktu secara otomatis</li>
+                  <li>Notifikasi keterlambatan atau ketidakhadiran</li>
+                  <li>Integrasi dengan sistem cuti dan payroll</li>
+                  <li>Laporan kehadiran yang mudah diakses dan diunduh</li>
+                </ul>
+
+                <h2 class="mt-4">Manfaat Absensi Digital</h2>
+                <ul>
+                  <li>Efisiensi waktu dan biaya</li>
+                  <li>Mengurangi kecurangan (manipulasi data kehadiran)</li>
+                  <li>
+                    Memudahkan HR dan manajemen dalam memantau kehadiran
+                    karyawan secara real-time
+                  </li>
+                  <li>
+                    Bisa digunakan dari mana saja selama ada koneksi internet
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- KodeSis Lettering Section -->
+      <section id="lettering" class="about section">
+        <div class="container" data-aos="fade-up">
+          <div class="row gx-0">
+            <div
+              class="col-lg-6 d-flex align-items-center justify-content-center"
+              data-aos="zoom-out"
+              data-aos-delay="200"
+            >
+              <img
+                src="assets/img/lettering.jpg"
+                class="img-fluid w-100"
+                alt="KodeSis Lettering"
+              />
+            </div>
+            <div
+              class="col-lg-6 d-flex flex-column justify-content-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="content">
+                <h3>Lettering Digital</h3>
+                <h2>Apa itu Lettering Digital ?</h2>
+                <p>
+                  <strong>Lettering Digital </strong>adalah sistem
+                  surat-menyurat elektronik yang dirancang untuk mempermudah
+                  proses pengelolaan dokumen resmi dalam sebuah organisasi atau
+                  perusahaan. Sistem ini menggantikan proses manual seperti
+                  pencatatan, pencetakan, dan pengarsipan fisik surat dengan
+                  proses digital yang lebih efisien, cepat, dan terstruktur.
+                </p>
+                <h2 class="mt-4">Manfaat Lettering Digital</h2>
+                <ul>
+                  <li>
+                    <strong>Pengarsipan otomatis:</strong> Semua surat masuk dan
+                    keluar tersimpan secara sistematis dan mudah dicari.
+                  </li>
+                  <li>
+                    <strong>Penomoran surat otomatis:</strong> Mencegah
+                    duplikasi nomor dan mempercepat pembuatan surat baru.
+                  </li>
+                  <li>
+                    <strong>Disposisi digital:</strong> Surat dapat
+                    didisposisikan secara langsung oleh pimpinan tanpa harus
+                    hadir di kantor.
+                  </li>
+                  <li>
+                    <strong>Akses jarak jauh:</strong> Surat dapat dibuat,
+                    dibaca, dan ditindaklanjuti dari mana saja selama terhubung
+                    ke internet.
+                  </li>
+                  <li>
+                    <strong>Keamanan data:</strong> Dokumen penting tersimpan
+                    secara aman dalam sistem yang terproteksi.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- KodeSis Enterprise Section -->
+      <section id="enterprise" class="about section">
+        <div class="container" data-aos="fade-up">
+          <div class="row gx-0">
+            <div
+              class="col-lg-6 d-flex align-items-center justify-content-center"
+              data-aos="zoom-out"
+              data-aos-delay="200"
+            >
+              <img
+                src="assets/img/erp.jpg"
+                class="img-fluid w-100"
+                alt="KodeSis Enterprise"
+              />
+            </div>
+            <div
+              class="col-lg-6 d-flex flex-column justify-content-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="content">
+                <h3>Enterprise Solutions</h3>
+                <h2>Apa itu Enterprise Solutions ?</h2>
+                <p>
+                  <strong>Enterprise Solutions </strong>
+                  adalah sekumpulan sistem, aplikasi, atau layanan teknologi
+                  yang dirancang untuk memenuhi kebutuhan operasional dan
+                  manajerial sebuah organisasi atau perusahaan secara
+                  menyeluruh. Solusi ini biasanya mencakup integrasi berbagai
+                  fungsi bisnis seperti keuangan, sumber daya manusia, logistik,
+                  produksi, dan lainnya ke dalam satu sistem terpusat.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container" data-aos="fade-up">
+          <div class="row gx-0">
+            <div
+              class="col-lg-6 d-flex flex-column justify-content-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="content">
+                <h2>Tujuan Enterprise Solutions</h2>
+                <ul>
+                  <li>
+                    Meningkatkan efisiensi operasional dengan mengotomatisasi
+                    proses bisnis.
+                  </li>
+                  <li>
+                    Memudahkan koordinasi antar departemen melalui integrasi
+                    data.
+                  </li>
+                  <li>
+                    Meningkatkan akurasi data dan pengambilan keputusan berbasis
+                    data real-time.
+                  </li>
+                  <li>
+                    Menekan biaya operasional jangka panjang dengan sistem yang
+                    terstruktur.
+                  </li>
+                </ul>
+
+                <h2 class="mt-4">Contoh Sistem dalam Enterprise Solutions</h2>
+                <ul>
+                  <li>ERP (Enterprise Resource Planning)</li>
+                  <li>CRM (Customer Relationship Management)</li>
+                  <li>HRIS (Human Resource Information System)</li>
+                  <li>SCM (Supply Chain Management)</li>
+                  <li>BI (Business Intelligence)</li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="col-lg-6 d-flex align-items-center justify-content-center"
+              data-aos="zoom-out"
+              data-aos-delay="200"
+            >
+              <img
+                src="assets/img/enterprise.jpg"
+                class="img-fluid w-100"
+                alt="Kodesis Logo"
+                style="height: 396px"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="footer light-background">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-4 col-md-6 footer-about">
+              <a href="index.html" class="logo d-flex align-items-center">
+                <img src="assets/img/logo-kodesis.png" alt="KodeSis Logo" />
+                <span class="sitename">KodeSis</span>
+              </a>
+              <div class="footer-contact pt-3">
+                <p>Jl. Andara No. 1, Pondok Labu</p>
+                <p>Cilandak, Jakarta Selatan</p>
+                <p><strong>Email:</strong> <span>admin@kodesis.id</span></p>
+                <p>
+                  <strong>WhatsApp: </strong
+                  ><a href="https://wa.me/6289625551238">+62 896 2555 1238</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright text-center">
+        <div
+          class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center"
+        >
+          <div
+            class="d-flex flex-column align-items-center align-items-lg-start"
+          >
+            <div>
+              &copy; Hak Cipta <strong><span>kodesis.id</span></strong
+              >. Semua Hak Cipta Dilindungi
+            </div>
+            <div class="credits">
+              <!-- Semua tautan di footer harus tetap utuh. -->
+              <!-- Anda dapat menghapus tautan hanya jika Anda membeli versi pro. -->
+              <!-- Informasi lisensi: https://bootstrapmade.com/license/ -->
+              <!-- Beli versi pro dengan formulir kontak PHP/AJAX yang berfungsi: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
+              Desain oleh <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+          </div>
+
+          <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
+            <a href="https://wa.me/6289625551238" target="_blank">
+              <i class="bi bi-whatsapp"></i>
+            </a>
+            <a href="https://www.tiktok.com/@kodesis.id" target="_blank">
+              <i class="bi bi-tiktok"></i>
+            </a>
+            <a href="https://www.instagram.com/kodesis.id/" target="_blank">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/company/kode-sistem-indonesia/"
+              target="_blank"
+            >
+              <i class="bi bi-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        let cards = document.querySelectorAll(".bg-testimonial");
+        let maxHeight = 170;
+
+        for (let i = 0; i < cards.length; i++) {
+          if (cards[i].offsetHeight > maxHeight) {
+            maxHeight = cards[i].offsetHeight;
+          }
+        }
+
+        for (let i = 0; i < cards.length; i++) {
+          cards[i].style = "height: " + maxHeight + "px";
+        }
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var swiper = new Swiper(
+          ".clients-swiper",
+          JSON.parse(document.querySelector(".swiper-config").textContent)
+        );
+      });
+
+      document.addEventListener("DOMContentLoaded", function () {
+        var tooltipTriggerList = [].slice.call(
+          document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        );
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+          return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+      });
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const sections = [
+          "e-memo",
+          "tello-task",
+          "cuti-digital",
+          "asset",
+          "absensi",
+          "lettering",
+          "journal",
+          "enterprise",
+        ]; // Add more IDs as needed
+        const links = document.querySelectorAll("a.show-section");
+
+        links.forEach((link) => {
+          link.addEventListener("click", function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute("href").substring(1); // Remove #
+
+            sections.forEach((id) => {
+              const section = document.getElementById(id);
+              if (section) {
+                section.style.display = id === targetId ? "block" : "none";
+              }
+            });
+          });
+        });
+
+        // Optionally hide all except the first by default
+        sections.forEach((id, index) => {
+          const section = document.getElementById(id);
+          if (section) {
+            section.style.display = index === 0 ? "block" : "none";
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
