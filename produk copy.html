@@ -84,29 +84,6 @@
         background-color: #0d6efd;
         color: white;
       }
-     .btn-primary {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: #ECF6FA;
-    border: 1px solid #E0EEF3;
-    border-radius: 4px;
-    padding: 16px 20px;
-    font-size: 18px;
-    font-weight: 500;
-    color: #009cea;
-    text-decoration: none;
-    outline: none;
-    transition: all 0.3s ease-out;
-    cursor: pointer;
-}
-
-.btn-primary:hover {
-    background: var(--tg-theme-primary);
-    color: #fff;
-    border-color: var(--tg-theme-primary);
-}
-
     </style>
     <!-- Swiper CSS -->
     <link
@@ -170,8 +147,19 @@
       <section id="hero" class="hero section">
         <div class="container">
           <div class="row gy-4">
-            
+            <!-- <div
+              class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center"
+            >
 
+                <a href="#about" class="btn-get-started mb-2">KodeSis E-Memo</a>
+                <a href="#about" class="btn-get-started mb-2">KodeSis Tello/Task</a>
+                <a href="#about" class="btn-get-started mb-2">KodeSis Cuti Digital</a>
+                <a href="#about" class="btn-get-started mb-2">KodeSis Asset</a>
+                <a href="#about" class="btn-get-started mb-2">KodeSis Journal</a>
+                <a href="#about" class="btn-get-started mb-2">KodeSis Absensi</a>
+                <a href="#about" class="btn-get-started mb-2">>KodeSis Lettering</a>
+                <a href="#about" class="btn-get-started">KodeSis Enterprise</a>
+            </div> -->
             <div
               class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center"
             >
@@ -189,84 +177,16 @@
             </div>
             <div class="col-lg-5 order-1 order-lg-2 hero-img">
               <img
-                src="assets/img/produk.png"
+                src="assets/img/3_20250220_212044_0000.png"
                 class="img-fluid2"
                 alt="Hero Image"
               />
             </div>
-            <!-- <div
-              class="col-lg-5 order-1 order-lg-2 hero-img d-flex justify-content-center align-items-center"
-            >
-              <h1 class="text-center">E-Memo</h1>
-            </div> -->
           </div>
         </div>
       </section>
       <!-- /Hero Section -->
-<div class="row px-5" id="produk-selection">
-  <div class="col-lg-3 "
-            >
-              <a
-                href="#e-memo"
-                class="btn-primary mb-2 w-100 d-flex justify-content-between align-items-center show-section"
-                style="max-width: 400px"
-              >
-                KodeSis E-Memo <i class="bi bi-arrow-right"></i>
-              </a>
-              <a
-                href="#tello-task"
-                class="btn-primary mb-2 w-100 d-flex justify-content-between align-items-center show-section"
-                style="max-width: 400px"
-              >
-                KodeSis Tello/Task <i class="bi bi-arrow-right"></i>
-              </a>
-              <a
-                href="#cuti-digital"
-                class="btn-primary mb-2 w-100 d-flex justify-content-between align-items-center show-section"
-                style="max-width: 400px"
-              >
-                KodeSis Cuti Digital <i class="bi bi-arrow-right"></i>
-              </a>
-              <a
-                href="#asset"
-                class="btn-primary mb-2 w-100 d-flex justify-content-between align-items-center show-section"
-                style="max-width: 400px"
-              >
-                KodeSis Asset <i class="bi bi-arrow-right"></i>
-              </a>
-              <a
-                href="#journal"
-                class="btn-primary mb-2 w-100 d-flex justify-content-between align-items-center show-section"
-                style="max-width: 400px"
-              >
-                KodeSis Journal <i class="bi bi-arrow-right"></i>
-              </a>
-              <a
-                href="#absensi"
-                class="btn-primary mb-2 w-100 d-flex justify-content-between align-items-center show-section"
-                style="max-width: 400px"
-              >
-                KodeSis Absensi <i class="bi bi-arrow-right"></i>
-              </a>
-              <a
-                href="#lettering"
-                class="btn-primary mb-2 w-100 d-flex justify-content-between align-items-center show-section"
-                style="max-width: 400px"
-              >
-                KodeSis Lettering <i class="bi bi-arrow-right"></i>
-              </a>
-              <a
-                href="#enterprise"
-                class="btn-primary w-100 d-flex justify-content-between align-items-center show-section"
-                style="max-width: 400px"
-              >
-                KodeSis Enterprise <i class="bi bi-arrow-right"></i>
-              </a>
-            </div>
-
-  <div class="col-9">
-
-      <!-- <section id="produk-selection" class="py-4 bg-light">
+      <section id="produk-selection" class="py-4 bg-light">
         <div class="container">
           <div class="d-flex flex-wrap justify-content-center gap-3">
             <a href="#e-memo" class="nav-link show-section">KodeSis E-Memo</a>
@@ -287,7 +207,120 @@
             >
           </div>
         </div>
-      </section> -->
+      </section>
+
+      <!-- Product Section -->
+      <!-- <section id="product" class="services section">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Produk Kami</h2>
+    <p>
+      Kami menyediakan berbagai solusi IT yang dirancang untuk mendukung
+      keberhasilan bisnis Anda.
+    </p>
+  </div>
+  <div class="container">
+    <div class="row gy-4">
+      
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <img src="assets/img/e-memo.png" alt="KodeSis e-HR" class="img-fluid" />
+          </div>
+          <h4><a href="" class="stretched-link">KodeSis E-Memo</a></h4>
+          <p>
+            Solusi digital untuk pengelolaan surat menyurat yang cepat, aman, dan efisien.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <img src="assets/img/e-hr.jpg" alt="KodeSis e-HR" class="img-fluid" />
+          </div>
+          <h4><a href="" class="stretched-link">KodeSis Tello/Task</a></h4>
+          <p>
+            Platform manajemen tugas untuk kolaborasi tim yang lebih terarah, terjadwal, dan produktif.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <img src="assets/img/cuti-online.png" alt="KodeSis e-HR" class="img-fluid" />
+          </div>
+          <h4><a href="" class="stretched-link">KodeSis Cuti Digital</a></h4>
+          <p>
+            Ajukan cuti dengan mudah, cepat, dan transparan langsung dari perangkat Anda.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <img src="assets/img/e-asset.jpg" alt="KodeSis Asset" class="img-fluid" />
+          </div>
+          <h4><a href="" class="stretched-link">KodeSis Asset</a></h4>
+          <p>Manajemen aset perusahaan yang mudah dan terintegrasi.</p>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <img src="assets/img/e-journal.jpg" alt="KodeSis Journal" class="img-fluid" />
+          </div>
+          <h4><a href="" class="stretched-link">KodeSis Journal</a></h4>
+          <p>
+            Sistem akuntansi yang memudahkan pencatatan dan pelaporan
+            keuangan.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <img src="assets/img/absensi-online1.jpg" alt="KodeSis Journal" class="img-fluid" />
+          </div>
+          <h4><a href="" class="stretched-link">KodeSis Absensi</a></h4>
+          <p>
+            Sistem absensi digital tanpa mesin fingerprint, cukup lewat perangkat Anda secara real-time, akurat, dan
+            fleksibel dari
+            mana saja.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <img src="assets/img/lettering.jpg" alt="KodeSis Journal" class="img-fluid" />
+          </div>
+          <h4><a href="" class="stretched-link">KodeSis Lettering</a></h4>
+          <p>
+            Kelola surat masuk dan keluar secara digital, cepat, aman, dan tanpa tumpukan kertas.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <img src="assets/img/erp.jpg" alt="KodeSis Enterprise" class="img-fluid" />
+          </div>
+          <h4>
+            <a href="" class="stretched-link">KodeSis Enterprise</a>
+          </h4>
+          <p>Kustom sistem terintegrasi.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+      <!-- /Product Section -->
 
       <!-- About Section (KodeSis E-Memo) -->
       <section id="e-memo" class="about section">
@@ -886,8 +919,6 @@
           </div>
         </div>
       </section>
-</div>
-</div>
 
       <!-- KodeSis Enterprise Section -->
       <section id="enterprise" class="about section">
